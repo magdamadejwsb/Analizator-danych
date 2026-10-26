@@ -1,0 +1,23 @@
+# Środowisko wirtualne
+.venv/
+
+# Pliki tymczasowe Pythona
+__pycache__
+*.pyc
+
+# Pliki narzędzi testujących
+.ruff_cache
+
+# Lokalne bazy danych
+database/*.db
+database/*.sqlite
+
+# Wygenerowane wykresy
+results/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Inne pliki własne
+ruff.txt
