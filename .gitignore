@@ -7,6 +7,7 @@ __pycache__
 
 # Pliki narzędzi testujących
 .ruff_cache
+.pytest_cache
 
 # Lokalne bazy danych
 database/*.db
