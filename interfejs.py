@@ -8,6 +8,8 @@ from wykresy import generuj_wykres
 
 
 def wyswietl_menu():
+    """Wyświetla menu glowne aplikacji w konsoli"""
+
     print("\n\nRESEARCH DATA ANALYZER")
     print("1. Wczytaj dane z pliku csv")
     print("2. Wyświetl dane")
@@ -18,6 +20,8 @@ def wyswietl_menu():
     print(colored("-" * 40, "blue"))
 
 def uruchum_menu():
+    """Obsuługuje wybór opcji menu i wywołuje odpowiednie funkcje aplikacji"""
+    
     dane = None
 
     while True:

@@ -3,6 +3,8 @@ from interfejs import uruchum_menu
 
 
 def main():
+    """Uruchamia menu glowne aplikacji"""
+    
     uruchum_menu()
 
 # warunek uruchamiania programu - określa czy dany plik został uruchomiany bezpośrednio, czy został zaimportowany jako moduł z innego pliku
