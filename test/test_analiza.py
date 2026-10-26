@@ -1,6 +1,7 @@
+import pandas as pd
+
 from analiza import podstawowe_statystyki
 
-import pandas as pd
 
 def test_podstawowe_statystyki(capsys):
     df = pd.DataFrame({

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from dane import wyswietl_dane, wczytaj_dane
+from dane import wczytaj_dane, wyswietl_dane
 
 
 def test_wyswietl_dane(capsys):
@@ -51,7 +51,7 @@ def test_wczytaj_dane(tmp_path, monkeypatch):
     df = wczytaj_dane()
 
     assert df is not None
-    assert f"Liczba wierszy: {len(df)}"
+    assert "Liczba wierszy: 2" in df
 
 
 def test_wczytaj_dane_brak_plikow(tmp_path, monkeypatch, capsys):
