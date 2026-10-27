@@ -1,7 +1,7 @@
 # Cykl pracy Dockerfile -(docker bulid)-> Obraz Dockera -(docker run)-> Kontener
 FROM python:3.12
 
-WORKDIR / app
+WORKDIR /app
 
 # Kopiuje plik z kontekstu budowania do katalogu roboczego
 # Pierwsza kropka oznacza źródło, druga kropka oznacza miejsce docelowe
