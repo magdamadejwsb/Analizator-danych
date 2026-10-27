@@ -16,6 +16,9 @@ database/*.sqlite
 # Wygenerowane wykresy
 results/
 
+# Logi aplikacji
+logs/
+
 # Pliki systemowe
 .DS_Store
 Thumbs.db
