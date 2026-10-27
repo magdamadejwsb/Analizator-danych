@@ -25,3 +25,7 @@ Thumbs.db
 
 # Inne pliki własne
 ruff.txt
+
+# Inne katalogi
+dist/
+*.egg-info/

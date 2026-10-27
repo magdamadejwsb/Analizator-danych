@@ -1,0 +1,28 @@
+[bulid-system]
+requires = ["setuptools>=68"]
+bulid-backend = "setuptools.bulid_meta"
+
+[project]
+name = "research-data-analyzer"
+version = "1.0.0"
+description = "Aplikacja do analizy danych badawczych"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "termcolor"
+]
+
+[project.scripts]
+research-analyzer = "main:main"
+
+[tool.setuptools]
+py-modules = [
+    "main",
+    "dane",
+    "analiza",
+    "interfejs",
+    "wykresy",
+    "baza",
+    "logowanie"
+]
