@@ -15,7 +15,8 @@ Projekt powstał w ramach szkolenia **"Projektowanie i programowanie aplikacji w
 7. [Testowanie](#7-testowanie)
 8. [Kontrola jakości kodu](#8-kontrola-jakosci-kodu)
 9. [Automatyzacja CI](#9-automatyzacja-ci)
-10. [Zastosowanie](#10-zastosowanie)
+10. [Dystrybucja pakietu](#10-dystrybucja-pakietu)
+11. [Zastosowanie](#11-zastosowanie)
 
 ## 1. Funkcjonalności
 
@@ -92,7 +93,18 @@ Automatyczne poprawianie obsługiwanych problemów:
 python -m ruff check . --fix
 ```
 
-## 10. Zastosowanie
+## 10. Dystybucja pakietu
+
+Projekt jest dostępny dla użytkowników w postaci pakietu instalacyjnego .whl. wykorzystując **GitHub Releases**
+
+Po pobraniu pliku .whl użytkownik może zalinstalować pakiet poleceniem:
+```bash
+python -m pip install research_data_analyzer-1.0.0-py3-none-any.whl
+```
+
+Instalacja wymaga zgodnej wersji Pythona, oraz przygotowanego środowiska wirtualnego.
+
+## 11. Zastosowanie
 
 Aplikacja może stanowić punkt wyjścia do przetwarzania danych wykorzystywanych w pracy naukowej lub dydaktycznej.
 
